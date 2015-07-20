@@ -12,10 +12,10 @@ export default {
 ```
 
 ```css
-    .jss-0 {
-        border: 3px solid green;
-        border-left: 1px solid red;
-    }
+.jss-0 {
+    border: 3px solid green;
+    border-left: 1px solid red;
+}
 ```
 
 
