@@ -18,6 +18,8 @@ export default {
 }
 ```
 
+Take a look at [examples](http://jsstyles.github.io/jss-props-sort/examples/index.html) directory.
+
 
 ## Register plugin
 
