@@ -1,7 +1,7 @@
 {
   "name": "jss-props-sort",
   "description": "Make rule props extend each other instead of override.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Oleg Slobodskoi",
     "email": "oleg008@gmail.com"
@@ -26,6 +26,6 @@
     }
   ],
   "dependencies": {
-    "jsstyles": "^1.0.0"
+    "jsstyles": "^2.1.0"
   }
 }
