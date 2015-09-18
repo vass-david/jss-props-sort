@@ -1,7 +1,7 @@
 {
   "name": "jss-props-sort",
-  "description": "Make rule props extend each other instead of override.",
-  "version": "0.1.1",
+  "description": "JSS plugin that ensures style properties extend each other instead of override",
+  "version": "0.2.0",
   "author": {
     "name": "Oleg Slobodskoi",
     "email": "oleg008@gmail.com"
@@ -19,13 +19,9 @@
   ],
   "engines": {},
   "scripts": {},
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
+  "license": "MIT",
+  "main": "dist/jss-props-sort.js",
   "dependencies": {
-    "jsstyles": "^2.1.0"
+    "jsstyles": "^2.3.0"
   }
 }
