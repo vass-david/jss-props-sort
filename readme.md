@@ -17,9 +17,9 @@ more specific properties will not be overwritten by less specific.
 import jss from 'jss'
 import propsSort from 'jss-props-sort'
 
-jss.use(propsSort)
+jss.use(propsSort())
 
-const styleSheet = jss.createStyleSheet({
+let sheet = jss.createStyleSheet({
   container: {
     'border-left': '1px solid red',
     border: '3px solid green'
@@ -28,7 +28,7 @@ const styleSheet = jss.createStyleSheet({
 ```
 
 ```javascript
-console.log(styleSheet.toString())
+console.log(sheet.toString())
 ```
 ```css
 .jss-0-0 {
@@ -38,12 +38,11 @@ console.log(styleSheet.toString())
 ```
 
 ```javascript
-console.log(styleSheet.classes)
+console.log(sheet.classes)
 ```
 ```javascript
 { container: "jss-0-0" }
 ```
-
 
 ## Run tests
 
@@ -51,7 +50,6 @@ console.log(styleSheet.classes)
 npm i
 npm run test
 ```
-
 
 ## License
 

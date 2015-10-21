@@ -2,7 +2,7 @@
 
 QUnit.module('Props sort plugin', {
   setup: function () {
-    jss.use(jssPropsSort)
+    jss.use(jssPropsSort())
   },
   teardown: function () {
     jss.plugins.registry = []
