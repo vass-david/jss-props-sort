@@ -5,7 +5,7 @@
 Inspired by React Native. When using this plugin,
 more specific properties will not be overwritten by less specific.
 
-[Demo](http://jsstyles.github.io/jss-examples/index.html#plugin-jss-props-sort) -
+[Demo](http://jsstyles.github.io/examples/index.html#plugin-jss-props-sort) -
 [JSS](https://github.com/jsstyles/jss)
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/jsstyles/jss?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -19,7 +19,7 @@ import propsSort from 'jss-props-sort'
 
 jss.use(propsSort())
 
-let sheet = jss.createStyleSheet({
+const sheet = jss.createStyleSheet({
   container: {
     'border-left': '1px solid red',
     border: '3px solid green'
