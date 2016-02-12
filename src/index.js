@@ -12,10 +12,10 @@ export default function jssPropsSort() {
   return rule => {
     const {style} = rule
     if (!style) return
-    let newStyle = {}
-    let props = Object.keys(style).sort(sort)
-    for (let i = 0; i < props.length; i++) {
-      newStyle[props[i]] = style[props[i]]
+    const newStyle = {}
+    const props = Object.keys(style).sort(sort)
+    for (const prop in props) {
+      newStyle[props[prop]] = style[props[prop]]
     }
     rule.style = newStyle
   }
