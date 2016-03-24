@@ -2,7 +2,7 @@
 
 QUnit.module('Props sort plugin', {
   setup: function () {
-    jss.use(jssPropsSort())
+    jss.use(jssPropsSort.default())
   },
   teardown: function () {
     jss.plugins.registry = []
@@ -16,6 +16,6 @@ test('sort props by length', function () {
       'border': '3px'
     }
   }, {named: false})
-  ok(ss.rules.a instanceof jss.Rule)
+  ok(ss.rules.a)
   equal(ss.toString(), 'a {\n  border: 3px;\n  border-left: 1px;\n}')
 })

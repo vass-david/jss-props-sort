@@ -1,3 +1,7 @@
+## 1.0.1 / 2015-03-24
+
+- update babel deps
+
 ## 1.0.0 / 2015-10-19
 
 - support jss 3.0
