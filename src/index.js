@@ -10,8 +10,8 @@ export default function jssPropsSort() {
   }
 
   return rule => {
-    const {style} = rule
-    if (!style) return
+    const {style, type} = rule
+    if (!style || type !== 'regular') return
     const newStyle = {}
     const props = Object.keys(style).sort(sort)
     for (const prop in props) {
@@ -20,4 +20,3 @@ export default function jssPropsSort() {
     rule.style = newStyle
   }
 }
-
