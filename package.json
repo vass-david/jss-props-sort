@@ -1,7 +1,7 @@
 {
   "name": "jss-props-sort",
   "description": "JSS plugin that ensures style properties extend each other instead of override",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Oleg Slobodskoi",
     "email": "oleg008@gmail.com"
