@@ -6,6 +6,7 @@ QUnit.module('Props sort plugin', {
   },
   teardown: function () {
     jss.plugins.registry = []
+    jss.uid.reset()
   }
 })
 
@@ -37,7 +38,7 @@ test('leave non-regular rules unchanged', function () {
       }
     }
   })
-  equal(ss.toString(), '@media print {\n  .button--jss-0-3 {\n    border: 3px;\n    border-left: 1px;\n  }\n}')
+  equal(ss.toString(), '@media print {\n  .button--jss-0-2 {\n    border: 3px;\n    border-left: 1px;\n  }\n}')
 
   ss = jss.createStyleSheet({
     '@keyframes id': {
