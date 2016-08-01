@@ -1,3 +1,8 @@
+## 2.0.0 / 2016-08-01
+
+- update to jss 5
+- update dev deps
+
 ## 1.0.2 / 2015-04-16
 
 - handle only regular rules
