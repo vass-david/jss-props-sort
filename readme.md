@@ -5,11 +5,9 @@
 Inspired by React Native. When using this plugin,
 more specific properties will not be overwritten by less specific.
 
-Before using this plugin you might want to read about [how to use this
-plugin](https://github.com/cssinjs/jss/blob/master/docs/setup.md#setup-with-plugins)
-or that [order of plugins does
-matter](https://github.com/cssinjs/jss/blob/master/docs/plugins.md#order-does-matter-here-is-the-right-one)
-unless you've already did.
+Make sure you read [how to use
+plugins](https://github.com/cssinjs/jss/blob/master/docs/setup.md#setup-with-plugins)
+in general.
 
 [Demo](http://cssinjs.github.io/examples/index.html#plugin-jss-props-sort) -
 [JSS](https://github.com/cssinjs/jss)
